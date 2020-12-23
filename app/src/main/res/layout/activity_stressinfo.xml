@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stressinfo">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="match_parent"
+            android:layout_height="784dp"
+
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:padding="10dp"
+            android:text="WHAT IS STRESS?\n\nStress is a feeling of emotional or physical tension.It can come from any event or thought that makes you feel frustrated, angry, or nervous.Stress is your body's reaction to a challenge or demand."
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+
+            android:padding="10dp"
+            android:text="\nCAUSES OF STRESS?\n\n->being under lots of pressure.\n->facing big changes.\n->worrying about something.\n->not having much or any control over the outcome of a situation.\n->having responsibilities that you're finding overwhelming.\n->not having enough work, activities or change in your life.\n->times of uncertainty.\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/desc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:padding="10dp"
+            android:text="\nWHAT IS DEPRESSION?\n\n
+A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life.
+Depression is a mood disorder that involves a persistent feeling of sadness and loss of interest.
+It is different from the mood fluctuations that people regularly experience as a part of life.
+Major life events, such as bereavement or the loss of a job, can lead to depression.\n\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/desc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:padding="10dp"
+            android:text="\nCAUSES OF DEPRESSION?\n\n->life events\n->personal factors\n->Drug and alcohol use\n->Serious medical illness\n->Hormones"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+

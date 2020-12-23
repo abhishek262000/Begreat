@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="output2">depression1</string>
+    <string name="next">Next</string>
+    <string name="exit">See Solutions</string>
+    <string name="rarely">Do not apply to me at all</string>
+    <string name="sometimes">Apply to me to some degree, or some of the time</string>
+    <string name="quite_sometimes">Apply to me to a considerable degree</string>
+    <string name="mostly">Applied to me very much or most of the time</string>
+    <string name="start">Start</string>
+    <string name="pune"><a href="https://www.google.com/maps/search/therapists+/@18.547572,73.9299484,14z/data=!3m1!4b1">PUNE</a></string>
+    <string name="kol"><a href="https://www.google.com/maps/search/therapists+kolkata/@22.5236458,88.143836,10.29z">KOLKATA</a></string>
+    <string name="kal"><a href="https://www.google.com/maps/search/therapists+kalyan/@15.3533906,69.3888335,6z/data=!3m1!4b1">KALYAN</a></string>
+    <string name="nag"><a href="https://www.google.com/maps/search/therapists+nagpur/@21.1435551,79.0364871,13z/data=!3m1!4b1">NAGPUR</a></string>
+    <string name="mum"><a href="https://www.google.com/maps/search/therapists+mumbai/@0.983424,63.2600672,3z/data=!3m1!4b1">MUMBAI</a></string>
+    <string name="nas"><a href="https://www.google.com/maps/search/therapists+nashik/@19.9919413,73.7666831,14z/data=!3m1!4b1">NASHIK</a></string>
+    <string name="bang"><a href="https://www.google.com/maps/search/therapists+banglore/@12.953037,77.4996176,11z/data=!3m1!4b1">BANGLORE</a></string>
+    <string name="del"><a href="https://www.google.com/maps/search/therapists+delhi/@21.9342833,67.5213952,6z/data=!3m1!4b1">DELHI</a></string>
+    <string name="che"><a href="https://www.google.com/maps/search/therapists+chennai/@13.03196,80.1353348,12z/data=!3m1!4b1">CHENNAI</a></string>
+    <string name="guj"><a href="https://www.google.com/maps/search/therapists+gujrat/@22.1223124,70.8973229,8z/data=!3m1!4b1">GUJARAT</a></string>
+    <string name="pun"><a href="https://www.google.com/maps/search/therapists+punjab/@30.9353175,75.1765782,9z/data=!3m1!4b1">PUNJAB</a></string>
+    <string name="tel"><a href="https://www.google.com/maps/search/therapists+telangana/@12.9144371,73.141255,6z/data=!3m1!4b1">TELANGANA</a></string>
+    <string name="up"><a href="https://www.google.com/maps/search/therapists+uttar+pradesh/@22.0569425,67.5220667,6z/data=!3m1!4b1">UTTAR-PRADESH</a></string>
+    <string name="ker"><a href="https://www.google.com/maps/search/therapists+kerala/@10.1890492,75.0348811,8z/data=!3m1!4b1">KERELA</a></string>
+    <string name="jai"><a href="https://www.google.com/maps/search/therapists+jaipur/@26.8802257,75.7104419,12z/data=!3m1!4b1">JAIPUR</a></string>
+    <string name="odi"><a href="https://www.google.com/maps/search/therapists+odisha/@20.6506303,83.6152974,8z/data=!3m1!4b1">ODISHA</a></string>
+    <string name="gur"><a href="https://www.google.com/maps/search/therapists+gurgaon/@29.7511881,76.7987176,7z/data=!3m1!4b1">GURGAON</a></string>
+    <string name="dhar"><a href="https://www.google.com/maps/search/therapists+dharamsala/@20.4120643,75.7013069,5z/data=!3m1!4b1">DHARAMSALA</a></string>
+    <string name="uttar"><a href="https://www.google.com/maps/search/therapists+uttarakhand/@29.7713108,78.4822987,9z/data=!3m1!4b1">UTTARAKHAND</a></string>
+    <string name="bho"><a href="https://www.google.com/maps/search/therapists+bhopal/@23.2200824,77.357766,12z/data=!3m1!4b1">BHOPAL</a></string>
+</resources>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Therapists"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login12"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="SELECT ONE OF THE FOLLOWING"
+            android:background="@drawable/sol"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD" />
+
+        <TextView
+            android:id="@+id/pune"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/pune"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/nagpur"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/nag"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/mumbai"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/mum"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/nasik"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/nas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/kalyan"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/kal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/banglore"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sol"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/bang"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/delhi"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/del"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/chennai"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/che"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/kolkata"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/kol"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+
+        <TextView
+            android:id="@+id/gujrat"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/guj"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"
+            />
+
+
+        <TextView
+            android:id="@+id/telangana"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/tel"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+
+        <TextView
+            android:id="@+id/punjab"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/pun"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+
+        <TextView
+            android:id="@+id/kerela"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/ker"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+
+        <TextView
+            android:id="@+id/UP"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/up"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/jaipur"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/jai"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/odisha"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/odi"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/gurgaon"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/gur"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/dharamsala"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/dhar"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/uttarakhand"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/uttar"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/bhopal"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="@string/bho"
+            android:background="@drawable/sol"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#E3DDDD"
+            android:textSize="30sp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

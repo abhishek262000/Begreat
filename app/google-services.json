@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "25025606009",
+    "project_id": "begrateful-affa1",
+    "storage_bucket": "begrateful-affa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25025606009:android:3249f40df67fe8edfd3fa8",
+        "android_client_info": {
+          "package_name": "com.example.begrateful"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25025606009-066vfuu21smpfbbefa8m0osdn3fg7667.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUyh018LknivlMw-lj1jvqgIzMWkksN40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25025606009-066vfuu21smpfbbefa8m0osdn3fg7667.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sol"
+    tools:context=".Basicpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/days_one"
+
+            android:text="DIET"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/foodtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.719" />
+
+
+        <TextView
+            android:id="@+id/foodtitle"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:fontFamily="@font/days_one"
+            android:text="Here are 6 science-backed foods and beverages that may provide anxiety relief."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.166" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/salmon"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:text="SALMON :- Salmon may be beneficial for reducing anxiety.
+
+It contains nutrients that promote brain health, including vitamin D and the omega-3 fatty acids eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).
+
+EPA and DHA may help regulate the neurotransmitters dopamine and serotonin, which can have calming and relaxing properties."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/chamomile"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:text="Chamomile
+Chamomile is an herb that may help reduce stress.
+
+It contains high amounts of antioxidants proven to reduce inflammation, which might decrease the risk of anxiety.
+
+Several studies have examined the association between chamomile and anxiety relief."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/chocolate"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:text="Dark Chocolate
+Incorporating some dark chocolate into your diet may also be helpful for easing anxiety,stress.
+
+Dark chocolate contains flavonols, which are antioxidants that may benefit brain function.
+
+They do this by improving blood flow to the brain and promoting its ability to adapt to stressful situations."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/turmeric"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:text="Turmeric
+Turmeric is a spice that contains curcumin, a compound studied for its role in promoting brain health and preventing depression .
+
+Animal and test-tube studies suggest that curcumin may boost the omega-3 fatty acid DHA in the brain by helping your body synthesize it more efficiently."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/yoghurt"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:text="Yogurt
+If you suffer from anxiety, yogurt is a great food to include in your diet.
+
+The probiotics, or healthy bacteria, found in some types of yogurt can improve several aspects of your well-being, including mental health"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/tea"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:text="Green Tea
+Green tea contains L-theanine, an amino acid that has been studied for the positive effects it may have on brain health and anxiety reduction"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="@color/white"
+            android:text="© 2005-2020 Healthline Media a Red Ventures Company. All rights reserved." />
+    </LinearLayout>
+
+</ScrollView>
